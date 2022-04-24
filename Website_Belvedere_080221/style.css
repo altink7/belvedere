@@ -1,0 +1,104 @@
+body{
+    width:800px;
+    height: auto;
+    margin:0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav{
+    text-align: center;
+}
+nav ul{
+    background-color: bisque;
+    padding: 10px;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    padding: 4px;
+    margin: 4px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:gray;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+}
+.start{
+    width:100%;
+    height:800px;
+}
+.start h1{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom:700px;
+}
+
+.start p{
+    font-size:15px;
+    background-color:yellow;
+    padding: 10px;
+    border: 1px;
+    border-radius:20px;
+    text-align: center;
+}
+
+
+footer{
+    float: bottom;
+    background-color: gray;
+    padding: 20px;
+    border: 1px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.tbl_buch{
+    margin-left:150px;
+    margin-top:50px;
+    margin-bottom: 600px;
+}
+
+.tbl_buch table{
+    text-align: center;
+    border:5px solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+.tbl_buch table tr td{
+    border:3px solid;
+    padding: 5px;
+}
+
+.tbl_kontakt{
+    margin-top:50px;
+    text-align: center;
+    margin-bottom: 400px;
+}
+
+.tbl_kontakt table{
+    text-align: center;
+    border:1px solid;
+    margin-left: 250px;
+    table-layout: fixed;
+    margin-bottom: 25px;
+}
+.tbl_kontakt table thead p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tbl_kontakt table tr td{
+    border:1px solid;
+    border-left: 1px solid;
+    padding: 10px;
+    
+}
